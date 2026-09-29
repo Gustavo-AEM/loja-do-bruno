@@ -1,0 +1,12 @@
+{
+  "name": "loja-do-bruno",
+  "version": "1.0.0",
+  "description": "Backend da loja do Bruno",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
