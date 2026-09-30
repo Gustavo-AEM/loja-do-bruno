@@ -28,7 +28,7 @@ app.use(express.urlencoded({
 
 app.use(
     express.static(
-        path.join(__dirname, "../frontend")
+        path.join(__dirname, "../frontend/pages")
     )
 );
 
