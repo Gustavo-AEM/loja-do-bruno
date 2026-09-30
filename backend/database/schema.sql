@@ -1,0 +1,30 @@
+CREATE TABLE IF NOT EXISTS usuarios (
+    id SERIAL PRIMARY KEY,
+
+    nome VARCHAR(100) NOT NULL,
+
+    email VARCHAR(150) UNIQUE NOT NULL,
+
+    senha VARCHAR(255) NOT NULL,
+
+    tipo VARCHAR(20) DEFAULT 'usuario',
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE IF NOT EXISTS livros (
+    id SERIAL PRIMARY KEY,
+
+    titulo VARCHAR(200) NOT NULL,
+
+    autor VARCHAR(150),
+
+    descricao TEXT,
+
+    capa TEXT,
+
+    conteudo TEXT NOT NULL,
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

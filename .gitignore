@@ -1,3 +1,33 @@
+# Node
 node_modules/
+
+# Ambiente
 .env
+.env.*
+
+# Logs
 *.log
+logs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Builds
+dist/
+build/
+
+# Banco local
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
