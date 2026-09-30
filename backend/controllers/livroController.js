@@ -1,4 +1,3 @@
-javascript
 const pool = require("../config/database");
 
 
